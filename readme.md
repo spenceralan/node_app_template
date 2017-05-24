@@ -17,14 +17,14 @@ First, clone the repository to your machine. Next, navigate to the folder contai
 
 There is only one question! What do you want your project to be named?
 
-The script will build your app on the desktop of your machine and run npm install and bower installs for all your app dependencies!
+The script will build your app on the desktop of your machine and run npm install and bower install for all your app dependencies!
 
 Don't forget to 'git init'!
 
 ## Built With
 
 * Ruby
- 
+
 ## Authors
 
 * Spencer Ruiz
