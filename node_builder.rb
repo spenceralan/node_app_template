@@ -114,12 +114,10 @@ TEXT
 <!DOCTYPE html>
 <html>
   <head>
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="bower_components/moment/min/moment.min.js"></script>
-    <script type="text/javascript" src="build/js/app.js"></script>
+    <link rel="stylesheet" href="build/css/vendor.css">
     <link rel="stylesheet" href="build/css/styles.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
     <title></title>
   </head>
 
@@ -150,8 +148,7 @@ TEXT
   ],
   "dependencies": {
     "jquery": "^3.2.1",
-    "bootstrap": "^3.3.7",
-    "moment": "^2.18.1"
+    "bootstrap": "^3.3.7"
   }
 }
 
@@ -206,8 +203,8 @@ var babel = require("gulp-babel");
 var buildProduction = utilities.env.production;
 
 var lib = require('bower-files')({
-  "override":{
-    "bootstrapp": {
+  "overrides":{
+    "bootstrap": {
       "main": [
         "less/bootstrap.less",
         "dist/css/bootstrap.css",
