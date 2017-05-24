@@ -8,7 +8,8 @@ Pull requests and forks are encouranged! This is just a template but feel free t
 
 * Mac
 * Ruby 
-* Bundler
+* Node Package Manager
+* Bower
 
 ### Installing
 
