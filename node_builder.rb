@@ -43,6 +43,12 @@ tmp/
 .env
 TEXT
 
+  write_contents project_path, ".jshintrc", <<-TEXT
+{
+  "esversion": 6
+}
+TEXT
+
   write_contents project_path, "README.md", <<-TEXT
 # <!--PROJECT NAME HERE-->
 
